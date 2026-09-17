@@ -1,0 +1,18 @@
+# Local project controls
+.DS_Store
+AGENTS.md
+CLAUDE.md
+STATUS.md
+wiki/
+
+# Downloaded source data and run evidence
+raw/
+run-logs/
+artifacts/
+notebooks/00_project_walkthrough_th.ipynb
+
+# Local verification only
+tests/
+__pycache__/
+*.pyc
+.venv/

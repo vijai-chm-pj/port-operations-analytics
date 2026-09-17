@@ -1,0 +1,11 @@
+metric,count,denominator,rate,note
+source_response_records,7135,,,Reconciled to the published request manifest.
+raw_port_area_rows,7176,,,Nested quality grain before canonicalisation.
+canonical_port_area_events,7172,,,Distinct canonical event keys.
+collapsed_duplicate_source_rows,4,7176,0.0006,Extra source rows represented by an identical canonical event.
+eligible_completed_events,7081,7172,0.9873,"Has ATA, ATD, and a non-negative actual interval."
+events_missing_ata,32,7172,0.0045,Blocked from completed-event coverage.
+events_missing_atd,59,7172,0.0082,Blocked from completed-event coverage.
+negative_actual_intervals,0,7172,0.0000,Blocked from completed-event coverage.
+exception_register_rows,95,,,One event may have more than one issue.
+duplicate_source_events,4,7172,0.0006,Resolved by retaining one event with full lineage.
