@@ -10,6 +10,7 @@ raw/
 run-logs/
 artifacts/
 notebooks/00_project_walkthrough_th.ipynb
+notebooks/00_model_comparison_explainer_th.ipynb
 
 # Local verification only
 tests/

@@ -1,6 +1,6 @@
 # Q1 2025 published data snapshot
 
-This folder makes the two analysis notebooks runnable after cloning the repository.
+This folder makes the four analysis notebooks runnable after cloning the repository.
 
 The data flow is Fintraffic API → source CSV snapshot → canonical-event and exception CSV → notebooks.
 
